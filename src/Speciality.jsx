@@ -1,5 +1,6 @@
 function Speciality() {
     return(
+        <section className="w-full">
         <div className="font-lato flex gap-10 justify-center flex-col items-center px-[80px] py-[70px] max-w-[1440px] my-0 mx-auto">
             <h2 className="font-normal text-3xl text-center texr-[#282C2F] text-wrap ">Plants and flowers are our specialty. We make it reasonable.</h2>
             <div className="flex gap-20 justify-center items-center pt-10 flex-wrap">
@@ -20,6 +21,7 @@ function Speciality() {
                 </div>
             </div>
         </div>
+        </section>
     )
 }
 export default Speciality
